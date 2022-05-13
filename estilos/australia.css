@@ -1,0 +1,49 @@
+html{
+    background-color: cornflowerblue;
+}
+
+.menu{
+    width: 500px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.principal>li{
+    float: left;
+}
+
+.principal li a{
+    background-color: aquamarine;
+    color: rgb(22, 29, 29);
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block; 
+}
+
+.principal li a:hover{
+    background-color: cadetblue;
+}
+
+.principal li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.principal li:hover > ul{
+    display: block;
+}
+
+.principal li ul li{
+    position: relative;
+}
+
+.general h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
